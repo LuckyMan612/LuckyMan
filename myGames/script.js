@@ -2,11 +2,11 @@ const gameContainer = document.getElementById("gameContainer");
 
 const gameJam = document.getElementById("gameJam");
 const game1 = gameJam.querySelector(".game");
-game1.querySelector(".game-title").innerHTML = "Nazwa gry 1";
-game1.querySelector(".game-description").innerHTML = "Opis gry 1";
-game1.querySelector(".game-date").innerHTML = "Data gry 1";
+game1.querySelector(".game-title").innerHTML = "Escape The Dungeon";
+game1.querySelector(".game-description").innerHTML = "You are escaping from the dungeons!";
+game1.querySelector(".game-date").innerHTML = "24.01.2023";
 game1.querySelector(".game-button").onclick = function() {
-  window.location.href = "link_do_strony_gry_1";
+  window.location.href = "https://lucky2337.itch.io/escape-dungeon";
 };
 
 // Tutaj możesz dodać kolejne gry w kacji Game Jam
